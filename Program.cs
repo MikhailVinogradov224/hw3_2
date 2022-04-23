@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите последовательно координаты первой точки");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите последовательно координаты первой точки");
+int d = Convert.ToInt32(Console.ReadLine());
+int e = Convert.ToInt32(Console.ReadLine());
+int f = Convert.ToInt32(Console.ReadLine());
+double ans = (Math.Sqrt(Math.Pow((a-d),2)+Math.Pow((b-e),2)+Math.Pow((c-f),2)));
+Console.WriteLine ($"Расстояние между двумя точками равно {ans}");
